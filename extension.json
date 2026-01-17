@@ -96,8 +96,8 @@
 			]
 		},
 		"Main": {
-			"class": "Wikivy\\MirahezeMagic\\HookHandlers\\Main",
-			"factory": "Wikivy\\MirahezeMagic\\HookHandlers\\Main::factory",
+			"class": "Wikivy\\WikivyMagic\\HookHandlers\\Main",
+			"factory": "Wikivy\\WikivyMagic\\HookHandlers\\Main::factory",
 			"services": [
 				"MainConfig",
 				"HttpRequestFactory"
