@@ -66,6 +66,9 @@
 		"GetLocalURL::Internal": {
 			"handler": "Main"
 		},
+		"GlobalUserPageWikis": {
+			"handler": "GlobalUserPage"
+		},
 		"MessageCacheFetchOverrides": {
 			"handler": "Main"
 		},
@@ -93,6 +96,13 @@
 			"class": "Wikivy\\WikivyMagic\\HookHandlers\\AbuseFilter",
 			"services": [
 				"AbuseFilterVariablesManager"
+			]
+		},
+		"GlobalUserPage": {
+			"class": "Wikivy\\WikivyMagic\\HookHandlers\\GlobalUserPage",
+			"services": [
+				"CreateWikiDataStore",
+				"ManageWikiDataStoreFactory"
 			]
 		},
 		"Main": {
